@@ -1,0 +1,36 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: 1
+        invisible: 1
+    
+    sort_order:
+        label: Orden
+        type: number
+    
+    question:
+        label: Pregunta
+        type: wiz_faqs_html
+        searchable: 1
+    
+    answer:
+        label: Respuesta
+        type: text
+        type: wiz_faqs_html
+        invisible: 1
+    
+    is_published:
+        label: Publicado
+        type: switch
+    
+    created_at:
+        label: Creación
+        type: datetime
+        invisible: 1
+        format: 'd/m/y H:i'
+    
+    updated_at:
+        label: 'Última actualización'
+        type: datetime
+        format: 'd/m/y H:i'

@@ -1,0 +1,13 @@
+name: 'Preguntas Frecuentes'
+modelClass: Wiz\Faqs\Models\Faq
+form: $/wiz/faqs/models/faq/fields.yaml
+defaultRedirect: wiz/faqs/faqs
+create:
+    title: 'Crear Pregunta'
+    redirect: 'wiz/faqs/faqs/update/:id'
+    redirectClose: wiz/faqs/faqs
+update:
+    title: 'Actualizar Pregunta'
+    redirect: wiz/faqs/faqs
+    redirectClose: wiz/faqs/faqs
+preview: {  }

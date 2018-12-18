@@ -1,0 +1,5 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table wiz_faqs_faqs'
+    - table_create_wiz_faqs_faqs.php

@@ -1,0 +1,21 @@
+fields:
+
+    question:
+        label: Pregunta
+        size: small
+        span: auto
+        required: 1
+        type: richeditor
+
+    answer:
+        label: Respuesta
+        size: small
+        span: auto
+        required: 1
+        type: richeditor
+
+    is_published:
+        label: '¿Publicado?'
+        span: auto
+        type: switch
+        comment: 'Determine si la pregunta debe o no mostrarse en el sitio web'

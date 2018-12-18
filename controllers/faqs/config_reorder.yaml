@@ -1,0 +1,5 @@
+title: 'Ordenar Preguntas Frecuentes'
+modelClass: Wiz\Faqs\Models\Faq
+nameFrom: question
+toolbar:
+    buttons: reorder_toolbar
