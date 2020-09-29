@@ -41,6 +41,13 @@ class Plugin extends PluginBase
         ];
     }
 
+    public function registerComponents()
+    {
+        return [
+            \Wiz\Faqs\Components\Faqs::class => 'Faqs',
+        ];
+    }
+
     public function registerListColumnTypes()
     {
         return [
